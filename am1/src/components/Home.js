@@ -18,11 +18,11 @@ const Home = () => {
         <h1>Welcome to my homepage</h1>
 
         <img src={selfImg} alt="Edmond" className="selfImg" />
-        <h2>I am a softare engineer create ...</h2>
+        <h2>I am a software engineer focused on</h2>
         <ul className="homeList">
-            <li>innovative</li>
-            <li>efficiently</li>
-            <li>user experiences</li>
+            <li>creating innovative </li>
+            <li>efficient solutions</li>
+            <li>enhance user experiences</li>
         </ul>
         <NavLink to="/about">More ...</NavLink>
         </main>
