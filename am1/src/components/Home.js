@@ -7,6 +7,7 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -22,7 +23,7 @@ const Home = () => {
             <li>efficiently</li>
             <li>user experiences</li>
         </ul>
-        <a href="about">More ...</a>
+        <NavLink to="/about">About</NavLink>
         </main>
         <Footer />
         </>
