@@ -7,6 +7,11 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import projectImg from "../images/project.png";
+import project_matrixImg from "../images/project_matrix.png";
+import project_domImg from "../images/project_dom.png";
+import project_bugImg from "../images/project_bug.png";
 
 const Project = () => {
     return (
@@ -14,17 +19,17 @@ const Project = () => {
         <Header />
         <main>
 
-        <img src="project.png" alt="Project" className="topTitle" />
+        <img src={projectImg} alt="Project" className="topTitle" />
         Belows are three of my projects that I have completed. 
 
         <div className="mainBox">
-            <img src="project_matrix.png" alt="Dynamic Matrix" className="project_img" />
+            <img src={project_matrixImg} alt="Dynamic Matrix" className="project_img" />
             <h2>Dynamic Matrix</h2>
             This is an indivual project that use HTML, JavaScript and CSS to create a 15x15 HTML table and displays in each cell the row number and the column number. Also, allow the user to enter the number of rows and columns to redraw a new table. 
         </div>
 
         <div className="mainBox">
-            <img src="project_dom.png" alt="Interactive Slideshow" className="project_img" />
+            <img src={project_domImg} alt="Interactive Slideshow" className="project_img" />
             <h2>Interactive Slideshow</h2>
             This is an indivual project that use HTML, DOM with nodes, JavaScript and CSS to create an interactive slideshow. 
             When the users click on a picture and it opens an overlay containing a zoomed version of the image, a button allows users to insert that picture to a favorites list area at the bottom of the first page.
@@ -33,7 +38,7 @@ const Project = () => {
         </div>
 
         <div className="mainBox">
-            <img src="project_bug.png" alt="Projct Matrix" className="project_img" />
+            <img src={project_bugImg} alt="Catch Strawberries" className="project_img" />
             <h2>Catch Strawberries</h2>
             This is an indivual project that use HTML, DOM with nodes, JavaScript and CSS to create an score counted game. 
             The strawberry hops randomly around the game area at a given interval. 

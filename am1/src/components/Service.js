@@ -7,13 +7,15 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import serviceImg from "../images/service.png"
 
 const Service = () => {
     return (
         <>
         <Header />
         <main>
-        <img src="service.png" alt="service" className="topTitle" /><br /><br />
+        <img src={serviceImg} alt="service" className="topTitle" /><br /><br />
         <ul>
             <li>create high-quality software solutions that are scalable using languages like C, C++, C#, Java, and JavaScript</li>
             <li>design responsive web applications with React, HTML, PHP, and ASP</li>

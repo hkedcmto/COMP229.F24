@@ -7,13 +7,15 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import contactImg from "../images/contact.png";
 
 const Contact = () => {
     return (
         <>
             <Header />
             <main>
-            <img src="contact.png" alt="Contact" className="topTitle" />
+            <img src={contactImg} alt="Contact" className="topTitle" />
             Please feel free to contact me via e-mail: <a href="mailto:cto20@my.centennialcollege.ca">cto20@my.centennialcollege.ca</a><br />
             Or use the below form to contact me.<br /><br />
             <form action="mailto:cto20@my.centennialcollege.ca" method="post">

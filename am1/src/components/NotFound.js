@@ -7,6 +7,7 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
 
 const NotFound = () => {
     return (

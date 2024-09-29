@@ -7,15 +7,18 @@ Date:           Sep 28, 2024
 
 import Header from "./Header";
 import Footer from "./Footer";
+import {NavLink} from "react-router-dom";
+import aboutImg from "../images/about.png";
+import selfImg from "../images/self.png"
 
 const About = () => {
     return (
         <>
             <Header />
             <main>
-            <img src="about.png" alt="About" className="topTitle" />
+            <img src={aboutImg} alt="About" className="topTitle" />
             
-            <img src="self.png" className="selfImg" alt="Self Photo" />
+            <img src={selfImg} className="selfImg" alt="Self Photo" />
 
             <div>
                 <h2>Software Engineer</h2>
