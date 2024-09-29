@@ -1,3 +1,11 @@
+/*
+File name:      index.css
+Student's Name: Cheuk Man Edmond To
+Student ID:     301378748
+Date:           Sep 28, 2024
+*/
+
+/* common styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,14 +26,9 @@ code {
   height: 40px;
 }
 
-.selfImg{
-  height: 300px;
-  text-align: left;
-}
-
-.homeList{
-  font-size: 16px;
-  color: white;
+main{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 footer{
@@ -42,3 +45,72 @@ a:hover{
   text-decoration: underline;
   color:yellow;
 }
+
+li {
+  padding-bottom: 10px;
+}
+
+.topTitle{
+  display: block;
+  padding-bottom: 10px;
+}
+
+/* Home & About page */
+.selfImg{
+  height: 300px;
+  text-align: left;
+}
+
+/* Home page */
+.homeList{
+  font-size: 16px;
+  color: white;
+}
+
+/* Project page */
+.project_img{
+  float: left;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.mainBox{
+  border: 2px solid whitesmoke;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  min-height: 200px;
+}
+
+/* Contact page */
+input{
+  border: 1px solid rgb(177, 177, 177);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-size: 18px;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(30, 30, 30);;
+  border-radius: 8px;
+}
+
+label{
+  font-weight: bold;
+}
+
+textarea{
+  border: 1px solid rgb(177, 177, 177);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-size: 18px;
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(30, 30, 30);;
+  border-radius: 8px;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(0, 107, 71);
+}
+

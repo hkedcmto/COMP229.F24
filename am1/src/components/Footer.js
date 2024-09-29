@@ -1,3 +1,10 @@
+/*
+File name:      Footer.js
+Student's Name: Cheuk Man Edmond To
+Student ID:     301378748
+Date:           Sep 28, 2024
+*/
+
 const Footer = () => {
     return (
         <>
